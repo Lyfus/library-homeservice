@@ -8,7 +8,7 @@ import { BooksModule } from './books/books.module';
   imports: [
     BullModule.forRoot({
       redis: {
-        host: 'localhost',
+        host: 'redis-server',
         port: 6379
       }
     }),
